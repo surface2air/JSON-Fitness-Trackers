@@ -7,7 +7,7 @@ This is an exercise in producing a web service that retrieves the contents from 
 
 The HTML page relies upon AJAX and Jquery using the GET JSON method to loop through the JSON file array and clearly organizes the contents of the array according to product name, editor star rating, retail price and related meta details.
 
-To view a demo of the web service, see project here: <a href="http://web-students.net/site9/jscript200/assignments/08/trackers-JSON.htm" target="_blank">http://web-students.net/site9/jscript200/assignments/08/trackers-JSON.htm</a>
+To view a demo of the web service, see project here: <a href="http://web-students.net/site9/jscript200/assignments/08/trackers-JSON.htm" target="_blank">http://web-students.net/site9/jscript200/assignments/08/index.htm</a>
 
 ## Credits
 
