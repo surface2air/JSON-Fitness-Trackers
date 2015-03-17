@@ -1,0 +1,111 @@
+[{
+    "Name": "Basis Peak",
+    "Image": "images/tracker_basis.jpg",
+    "EditorRating": "4.5 stars",
+    "RetailPrice": "$199.99",
+    "DeviceType": "Wrist Band, Sports Watch",
+    "DisplayType": "Monochrome LCD",
+    "Compatibility": "Android, iOS, Web",
+    "HeartRateMonitor": "Yes",
+    "SleepTracker": "Yes",
+    "BatteryLife": "4 days"
+  }, {
+    "Name": "Garmin Forerunner 15",
+    "Image": "images/tracker_garmin-forerunner.jpg",
+    "EditorRating": "4.5 stars",
+    "RetailPrice": "$139.99",
+    "DeviceType": "Sports Watch, GPS",
+    "DisplayType": "Monochrome LCD",
+    "Compatibility": "Windows, Mac",
+    "HeartRateMonitor": "Yes",
+    "SleepTracker": "No",
+    "BatteryLife": "N/A"
+  }, {
+    "Name": "Mio Fuse",
+    "Image": "images/tracker_mio.jpg",
+    "EditorRating": "4.5 stars",
+    "RetailPrice": "$149.99",
+    "DeviceType": "Wrist Band, Sports Watch",
+    "DisplayType": "Dot-Matrix LCD",
+    "Compatibility": "Android, iOS",
+    "HeartRateMonitor": "Yes",
+    "SleepTracker": "No",
+    "BatteryLife": "7 days"
+  }, {
+    "Name": "Fitbit Charge",
+    "Image": "images/tracker_fitbit.jpg",
+    "EditorRating": "4 stars",
+    "RetailPrice": "$121.69",
+    "DeviceType": "Wrist Band",
+    "DisplayType": "OLED",
+    "Compatibility": "Windows, Mac, Android, iOS",
+    "HeartRateMonitor": "No",
+    "SleepTracker": "Yes",
+    "BatteryLife": "10 days"
+  }, {
+    "Name": "Garmin Vivosmart",
+    "Image": "images/tracker_garmin-vivosmart.jpg",
+    "EditorRating": "4 stars",
+    "RetailPrice": "$169.99",
+    "DeviceType": "Wrist Band",
+    "DisplayType": "OLED",
+    "Compatibility": "Windows, Mac, Android, iOS",
+    "HeartRateMonitor": "Yes",
+    "SleepTracker": "Yes",
+    "BatteryLife": "7 days"
+  }, {
+    "Name": "Jawbone UP24",
+    "Image": "images/tracker_jawbone-up24.jpg",
+    "EditorRating": "4 stars",
+    "RetailPrice": "$99.93",
+    "DeviceType": "Wrist Band",
+    "DisplayType": "LED indicator lights",
+    "Compatibility": "Android, iOS",
+    "HeartRateMonitor": "No",
+    "SleepTracker": "Yes",
+    "BatteryLife": "5-7 days"
+}, {
+    "Name": "Runtastic Orbit",
+    "Image": "images/tracker_runtastic-orbit.jpg",
+    "EditorRating": "4 stars",
+    "RetailPrice": "$78.77",
+    "DeviceType": "Wrist Band, Clip-on",
+    "DisplayType": "OLED",
+    "Compatibility": "Android, iOS",
+    "HeartRateMonitor": "No",
+    "SleepTracker": "Yes",
+    "BatteryLife": "5-10 days"
+}, {
+    "Name": "Jawbone UP Move",
+    "Image": "images/tracker_jawbone-move.jpg",
+    "EditorRating": "3.5 stars",
+    "RetailPrice": "$49.95",
+    "DeviceType": "Wrist Band, Clip-on",
+    "DisplayType": "LED indicator lights",
+    "Compatibility": "Android, iOS",
+    "HeartRateMonitor": "No",
+    "SleepTracker": "Yes",
+    "BatteryLife": "N/A"
+}, {
+    "Name": "Microsoft Band",
+    "Image": "images/tracker_microsoft-band.jpg",
+    "EditorRating": "3.5 stars",
+    "RetailPrice": "$199.99",
+    "DeviceType": "Wrist Band, GPS",
+    "DisplayType": "OLED",
+    "Compatibility": "Android, iOS",
+    "HeartRateMonitor": "Yes",
+    "SleepTracker": "Yes",
+    "BatteryLife": "2-4 days"
+}, {
+    "Name": "Misfit Flash",
+    "Image": "images/tracker_misfit.jpg",
+    "EditorRating": "3.5 stars",
+    "RetailPrice": "$34.99",
+    "DeviceType": "Wrist Band, Clip-on",
+    "DisplayType": "LED indicator lights",
+    "Compatibility": "Android, iOS",
+    "HeartRateMonitor": "No",
+    "SleepTracker": "Yes",
+    "BatteryLife": "4+ months"
+}]
