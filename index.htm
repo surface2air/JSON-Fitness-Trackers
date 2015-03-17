@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>JSON | Get Some 02</title>
+  <title>JSON | EXERCISE</title>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 
   <!-- CSS -->
   <style type="text/css">
-
+    .headbar {
+      border-top:solid 5px whitesmoke;
+      margin-top:30px;
+      padding-top:20px;
+      width:400px;
+    }
   </style>
 
   <!-- Javascript -->
   <script type="text/javascript">
   $(document).ready(function (){
-      $("#btn").click(function(){
+      $("#btnStars").click(function(){
           /* set no cache */
           $.ajaxSetup({ cache: false });
 
@@ -36,12 +41,43 @@
               });
 
 
-              $("#div381").html(html.join('')).css("background-color", "#FFFFFF");
+              $("#divStars").html(html.join('')).css("background-color", "#FFFFFF");
           }).error(function(jqXHR, textStatus, errorThrown){ /* assign handler */
               /* alert(jqXHR.responseText) */
               alert("error occurred!");
           });
       });
+  });
+
+  $(document).ready(function (){
+    $("#btnAlpha").click(function(){
+      /* set no cache */
+      $.ajaxSetup({ cache: false });
+
+      $.getJSON("trackers-alpha-sort.json", function(data){
+        var html = [];
+
+        /* loop through array */
+        $.each(data, function(index, a){
+          html.push("<div style='display:block;border-bottom:solid 1px #999999;margin-bottom:10px;padding-bottom:20px;'>Name : ", a.Name, "<br />",
+          //"Image: <img src='" + a.Image + "'/><br />" // Not able to retrieve images :X
+          "Editor Rating : ", a.EditorRating, "<br />",
+          "Retail Price : ", a.RetailPrice, "<br />",
+          "Device Type : ", a.DeviceType, "<br />",
+          "Display Type : ", a.DisplayType, "<br />",
+          "Compatibility : ", a.Compatibility, "<br />",
+          "Heart Rate Monitor : ", a.HeartRateMonitor, "<br />",
+          "Sleep Tracker : " ,  a.SleepTracker, "<br />",
+          "Battery Life : ", a.BatteryLife, "</div><br>");
+        });
+
+
+        $("#divAlpha").html(html.join('')).css("background-color", "#FFFFFF");
+      }).error(function(jqXHR, textStatus, errorThrown){ /* assign handler */
+        /* alert(jqXHR.responseText) */
+        alert("error occurred!");
+      });
+    });
   });
   </script>
 
@@ -52,10 +88,10 @@
 
     <!-- HTML -->
     <a name="#ajax-getjson-example"></a>
-    <div id="example-section38">
-        <div><h1>Compare Fitness Trackers</h1></div>
-        <div id="div381"></div>
-        <button id="btn" type="button">Click to Compare Fitness Trackers (json type)</button>
+    <div id="section-01">
+        <div class="headbar"><h2>Compare Fitness Trackers Star Rating</h2></div>
+        <div id="divStars"></div>
+        <button id="btnStars" type="button">Compare Fitness Trackers Star Rating (json type)</button>
         &nbsp;<a href="trackers.json" target="_blank">Original Fitness Trackers JSON</a>
         <p>
         Fitness Trackers Comparison JSON sourced from:<br />
@@ -63,6 +99,19 @@
         by Jill Duffy, <i>PC Magazine</i>, 23 December 2014<br />
         <a href="http://www.pcmag.com/article2/0,2817,2404445,00.asp" target="_blank">http://www.pcmag.com/article2/0,2817,2404445,00.asp</a>
         </p>
+    </div>
+
+    <div id="section-02">
+      <div class="headbar"><h2>Fitness Trackers Alpha Sorted</h2></div>
+      <div id="divAlpha"></div>
+      <button id="btnAlpha" type="button">Click to Compare Fitness Trackers (json type)</button>
+      &nbsp;<a href="trackers-alpha-sort.json" target="_blank">Original Fitness Trackers JSON</a>
+      <p>
+        Fitness Trackers Comparison JSON sourced from:<br />
+        <b>Best Fitness Trackers for 2015</b><br/>
+        by Jill Duffy, <i>PC Magazine</i>, 23 December 2014<br />
+        <a href="http://www.pcmag.com/article2/0,2817,2404445,00.asp" target="_blank">http://www.pcmag.com/article2/0,2817,2404445,00.asp</a>
+      </p>
     </div>
 
   </body>
