@@ -13,7 +13,7 @@ To view a demo of the web service, see project here: <a href="http://web-student
 
 Fitness Trackers Comparison JSON sourced from:
 Best Fitness Trackers for 2015
-by Jill Duffy, PC Magazine, 23 December 2014
+by Jill Duffy, PC Magazine,<br /> 23 December 2014
 http://www.pcmag.com/article2/0,2817,2404445,00.asp
 
 
